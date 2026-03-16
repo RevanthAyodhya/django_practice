@@ -1,0 +1,12 @@
+[[source]]
+url = "https://devpi.q2developer.com/root/q2/+simple"
+verify_ssl = true
+name = "pip_conf_index_:env:"
+
+[packages]
+django = {version = "*", index = "pip_conf_index_:env:"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
