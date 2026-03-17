@@ -1,5 +1,5 @@
 [[source]]
-url = "https://devpi.q2developer.com/root/q2/+simple"
+url = "https://pypi.org/simple"
 verify_ssl = true
 name = "pip_conf_index_:env:"
 
